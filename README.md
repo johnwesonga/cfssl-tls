@@ -31,3 +31,19 @@ cfssl gencert \
 -profile=server \
 ca-csr.json | cfssljson -bare server
 ```
+
+## Run Server
+```
+go run srv.go
+```
+
+## Run Client
+```
+go run client.go
+```
+
+Results:
+```
+Hello, World!
+```
+
